@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: artist1-lookup
+  description: Artist1 Lookup
+  tags:
+    - python
+    - data
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-aa
+  system: artist1-engagement-portal
