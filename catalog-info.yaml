@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage_components
+  annotations:
+    github.com/project-slug: koxt/backstage_components
+spec:
+  type: other
+  lifecycle: unknown
